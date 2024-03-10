@@ -1,8 +1,6 @@
-# For example:
-multiprocessing: False
-path_pretrained_models: './pretrained_models'
+blip_half_precision: true
+blip_v2_model_type: blip2-flan-t5-xl
 dataset:
-    data_path: 'data'
-blip_v2_model_type: blip2-flan-t5-xxl  # Change to blip2-flan-t5-xl for smaller GPUs
-blip_half_precision: True
-# Add more changes here, following the same format as base_config.yaml
+  data_path: data
+multiprocessing: false
+path_pretrained_models: ./pretrained_models
